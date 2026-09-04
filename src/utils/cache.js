@@ -28,6 +28,10 @@ class Cache {
   clear() {
     this.cache.clear();
   }
+  
+  delete(key) {
+    this.cache.delete(key);
+  }
 }
 
 export { Cache };
